@@ -1,0 +1,125 @@
+/* Box sizing universal */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General */
+body {
+    font-family: 'Georgia', serif;
+    background: #fefbf6;
+    color: #333;
+    font-size: 0.95em; /* Un poco más pequeño */
+    padding-top: 0.5em;
+}
+
+.medio {
+    text-align: center;
+    font-size: 2.5em; /* Más compacto */
+    margin-top: 0.5em; /* Menos espacio arriba */
+    color: #7c3e2d;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+}
+
+/* Layout */
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5em;
+    gap: 1.5em;
+}
+
+/* Columnas */
+.column-50 {
+    width: 48%;
+    min-width: 300px;
+    flex: 1;
+}
+
+/* Subtítulos */
+h3.medio {
+    border-bottom: 2px solid #7c3e2d;
+    padding-bottom: 0.4em;
+    margin-bottom: 0.8em;
+    font-size: 1.3em;
+    color: #7c3e2d;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+
+td {
+    padding: 0.8em;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+    font-size: 0.85em;
+}
+
+tr:hover {
+    background-color: #f9f2ec;
+}
+
+/* Íconos con colores personalizados */
+i.fa-seedling { color: #4caf50; }
+i.fa-carrot { color: #ff9800; }
+i.fa-drumstick-bite { color: #8d6e63; }
+i.fa-fish { color: #03a9f4; }
+i.fa-shrimp { color: #ff7043; }
+i.fa-ban { color: #9c27b0; }
+i.fa-bread-slice { color: #ffca28; }
+i.fa-cheese { color: #ffc107; }
+i.fa-pepper-hot { color: #e53935; }
+
+/* Estilo de los iconos */
+i {
+    font-size: 1.2em;
+    margin-right: 0.4em;
+    vertical-align: middle;
+}
+
+/* Precio y calorías */
+td span {
+    white-space: nowrap;
+}
+
+/* MEDIA QUERY para 700px o menos */
+@media (max-width: 700px) {
+    .contenido {
+        flex-direction: column;
+        padding: 1.2em;
+    }
+
+    .column-50 {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    h1.medio {
+        font-size: 2em;
+        margin-top: 0.5em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    td {
+        font-size: 0.8em;
+        padding: 0.6em;
+    }
+
+    i {
+        font-size: 1.1em;
+    }
+
+    .price-kcal span {
+        display: inline-block;
+        margin-right: 0.6em;
+    }
+}

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <!-- ENTRANTES -->
+    <!-- Plato 1 -->
+    <plato tipo="entrante">
+        <nombre>Ensalada César</nombre>
+        <precio>8.50</precio>
+        <descripcion>Lechuga romana, croutons, queso parmesano y salsa César.</descripcion>
+        <calorias>320</calorias>
+        <caracteristicas>
+            <item>vegetariano</item>
+            <item>lacteo</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 2 -->
+    <plato tipo="entrante">
+        <nombre>Gazpacho Andaluz</nombre>
+        <precio>5.00</precio>
+        <descripcion>Sopa fría de tomate, pepino, pimiento y ajo.</descripcion>
+        <calorias>150</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 3 -->
+    <plato tipo="entrante">
+        <nombre>Crema de Calabaza</nombre>
+        <precio>6.50</precio>
+        <descripcion>Crema suave de calabaza con toque de jengibre.</descripcion>
+        <calorias>180</calorias>
+        <caracteristicas>
+            <item>vegetariano</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 4 -->
+    <plato tipo="entrante">
+        <nombre>Hummus con Pan de Pita</nombre>
+        <precio>5.50</precio>
+        <descripcion>Puré de garbanzos con pan de pita tostado.</descripcion>
+        <calorias>300</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 5 -->
+    <plato tipo="entrante">
+        <nombre>Bruschetta</nombre>
+        <precio>6.00</precio>
+        <descripcion>Pan tostado con tomate, ajo y albahaca.</descripcion>
+        <calorias>280</calorias>
+        <caracteristicas>
+            <item>vegetariano</item>
+            <item>gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 6 -->
+    <plato tipo="entrante">
+        <nombre>Tortilla Española</nombre>
+        <precio>7.00</precio>
+        <descripcion>Clásica tortilla de patata y cebolla.</descripcion>
+        <calorias>380</calorias>
+        <caracteristicas>
+            <item>vegetariano</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- PRINCIPALES -->
+    <!-- Plato 7 -->
+    <plato tipo="principal">
+        <nombre>Paella de Marisco</nombre>
+        <precio>15.00</precio>
+        <descripcion>Arroz con calamares, gambas y mejillones.</descripcion>
+        <calorias>560</calorias>
+        <caracteristicas>
+            <item>marisco</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 8 -->
+    <plato tipo="principal">
+        <nombre>Pizza Margarita</nombre>
+        <precio>10.00</precio>
+        <descripcion>Base de tomate, queso mozzarella y albahaca.</descripcion>
+        <calorias>700</calorias>
+        <caracteristicas>
+            <item>vegetariano</item>
+            <item>lacteo</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 9 -->
+    <plato tipo="principal">
+        <nombre>Hamburguesa Clásica</nombre>
+        <precio>11.50</precio>
+        <descripcion>Carne de ternera, lechuga, tomate y pan artesanal.</descripcion>
+        <calorias>800</calorias>
+        <caracteristicas>
+            <item>carne</item>
+            <item>gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 10 -->
+    <plato tipo="principal">
+        <nombre>Fideuá</nombre>
+        <precio>14.00</precio>
+        <descripcion>Fideos finos con marisco y alioli casero.</descripcion>
+        <calorias>650</calorias>
+        <caracteristicas>
+            <item>marisco</item>
+            <item>gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 11 -->
+    <plato tipo="principal">
+        <nombre>Lasaña Vegetal</nombre>
+        <precio>12.00</precio>
+        <descripcion>Lasaña rellena de verduras y bechamel.</descripcion>
+        <calorias>600</calorias>
+        <caracteristicas>
+            <item>vegetariano</item>
+            <item>lacteo</item>
+            <item>gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 12 -->
+    <plato tipo="principal">
+        <nombre>Pollo al Curry</nombre>
+        <precio>13.50</precio>
+        <descripcion>Pollo en salsa de curry suave con arroz basmati.</descripcion>
+        <calorias>620</calorias>
+        <caracteristicas>
+            <item>picante</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 13 -->
+    <plato tipo="principal">
+        <nombre>Tacos de Cochinita</nombre>
+        <precio>12.50</precio>
+        <descripcion>Tortillas de maíz con cochinita pibil y cebolla encurtida.</descripcion>
+        <calorias>550</calorias>
+        <caracteristicas>
+            <item>picante</item>
+            <item>carne</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 14 -->
+    <plato tipo="principal">
+        <nombre>Salmón a la Plancha</nombre>
+        <precio>16.00</precio>
+        <descripcion>Filete de salmón con verduras al vapor.</descripcion>
+        <calorias>510</calorias>
+        <caracteristicas>
+            <item>pescado</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- POSTRES -->
+    <!-- Plato 15 -->
+    <plato tipo="postre">
+        <nombre>Tarta de Queso</nombre>
+        <precio>6.00</precio>
+        <descripcion>Tarta suave con base de galleta y mermelada de fresa.</descripcion>
+        <calorias>450</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>vegetariano</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 16 -->
+    <plato tipo="postre">
+        <nombre>Fruta Fresca</nombre>
+        <precio>4.00</precio>
+        <descripcion>Selección de fruta de temporada.</descripcion>
+        <calorias>120</calorias>
+        <caracteristicas>
+            <item>vegano</item>
+            <item>sin gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 17 -->
+    <plato tipo="postre">
+        <nombre>Brownie con Helado</nombre>
+        <precio>6.50</precio>
+        <descripcion>Brownie de chocolate caliente con helado de vainilla.</descripcion>
+        <calorias>540</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 18 -->
+    <plato tipo="postre">
+        <nombre>Helado Artesanal</nombre>
+        <precio>5.00</precio>
+        <descripcion>Helado de sabores naturales hechos en casa.</descripcion>
+        <calorias>220</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>vegetariano</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 19 -->
+    <plato tipo="postre">
+        <nombre>Natillas Caseras</nombre>
+        <precio>4.50</precio>
+        <descripcion>Natillas tradicionales con galleta María.</descripcion>
+        <calorias>300</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>gluten</item>
+        </caracteristicas>
+    </plato>
+
+    <!-- Plato 20 -->
+    <plato tipo="postre">
+        <nombre>Yogur con Miel y Nueces</nombre>
+        <precio>4.00</precio>
+        <descripcion>Yogur natural con miel orgánica y nueces troceadas.</descripcion>
+        <calorias>230</calorias>
+        <caracteristicas>
+            <item>lacteo</item>
+            <item>vegetariano</item>
+        </caracteristicas>
+    </plato>
+</menu>
